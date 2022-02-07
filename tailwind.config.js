@@ -6,21 +6,21 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-			  'sanFrancisco': "url('sanFrancisco.jpg')",
-			  'sanFranciscoDesktop': "url('sanFranciscoDesktop.jpg')",
-			  'yosemite': "url('yosemite.jpg')",
-			  'LA': "url('LA.jpg')",
-			  'seattle': "url('seattle.jpg')",
-			  'new_york': "url('new_york.jpg')",
-			  'norway': "url('norway.jpg')",
-			  'sydney': "url('sydney.jpg')",
-			  'miami': "url('miami.jpg')",
-			  'switzerland': "url('switzerland.jpg')",
-			  'bali': "url('bali.jpg')",
-			  'norway': "url('norway.jpg')",
-			  'chicago': "url('chicago.jpg')",
-			  'europe': "url('europe.jpg')",
-			  'iceland': "url('iceland.jpg')",
+			  'sanFrancisco': "url('/sanFrancisco.jpg')",
+			  'sanFranciscoDesktop': "url('/sanFranciscoDesktop.jpg')",
+			  'yosemite': "url('/yosemite.jpg')",
+			  'LA': "url('/LA.jpg')",
+			  'seattle': "url('/seattle.jpg')",
+			  'new_york': "url('/new_york.jpg')",
+			  'norway': "url('/norway.jpg')",
+			  'sydney': "url('/sydney.jpg')",
+			  'miami': "url('/miami.jpg')",
+			  'switzerland': "url('/switzerland.jpg')",
+			  'bali': "url('/bali.jpg')",
+			  'norway': "url('/norway.jpg')",
+			  'chicago': "url('/chicago.jpg')",
+			  'europe': "url('/europe.jpg')",
+			  'iceland': "url('/iceland.jpg')",
 			  
 			},
 			backgroundColor: theme =>({
@@ -37,5 +37,10 @@ module.exports = {
 			}),
     },
   },
+  variants: {
+	width: ["responsive", "hover", "focus"],
+	extend: {
+	},
+	},
   plugins: [],
 }
